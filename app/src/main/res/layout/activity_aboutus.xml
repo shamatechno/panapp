@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutus">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/icn" />
+
+        <TextView
+            android:id="@+id/txtVver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9575CD"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/relativeLayout">
+
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="400dp"
+            android:layout_height="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="140dp"
+            android:background="@color/colorPrimaryDark" />
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:text="S. Shama Parveen"
+            android:textColor="#ffffff"
+            android:textAlignment="textStart"
+            android:textSize="17dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:textColor="#ffffff"
+            android:text=" © All Rights Reserved"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/rate"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="112dp"
+            android:background="@drawable/round"
+            android:drawableLeft="@drawable/rate"
+            android:paddingLeft="16dp"
+            android:paddingRight="36dp"
+
+            android:text="Rate Us"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"   android:background="@drawable/round"
+            android:layout_height="30dp"
+            android:layout_above="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-45dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:paddingLeft="16dp"
+            android:paddingRight="20dp"
+            android:text="Developer"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="106dp"
+            android:textColor="#ffffff"
+            android:text="[Sponsored by G.v.Raghavendra Prasad]"
+            android:textAlignment="textStart"
+            android:textSize="17dp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/share"
+            android:background="@drawable/round"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="55dp"
+            android:text="   Share it"  android:backgroundTint="@color/colorPrimaryDark"
+            android:drawableLeft="@drawable/sharef"
+            android:paddingLeft="16dp"   android:layout_gravity="center"
+            android:paddingRight="36dp"
+
+            android:textColor="#ffffff" />
+
+    </RelativeLayout>
+</RelativeLayout>

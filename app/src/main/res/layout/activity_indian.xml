@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#9575CD"
+    tools:context=".indian">
+
+    <Button
+        android:id="@+id/newpan"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="New PAN CARD"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Changes / Correction /  Surrender  / Cancellation of PAN CARD"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/reprint"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="183dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Reprint / Reissue / Lost / Duplicate PAN CARD"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/reissue"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="68dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Search / Track / Check PAN"
+        android:textColor="#ffffff" />
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9326266365527831/8451844519">
+    </com.google.android.gms.ads.AdView>
+</RelativeLayout>
